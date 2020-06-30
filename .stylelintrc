@@ -1,0 +1,56 @@
+{
+  "extends": "stylelint-config-airbnb",
+  "plugins": [
+    "stylelint-order"
+  ],
+  "rules": {
+    "order/properties-order": [
+      "position",
+      "top",
+      "right",
+      "bottom",
+      "left",
+      "z-index",
+      "display",
+      "float",
+      "width",
+      "height",
+      "margin",
+      "padding",
+      "font",
+      "font-family",
+      "font-style",
+      "font-size",
+      "line-height",
+      "text-align",
+      "color",
+      "background-color",
+      "border",
+      "border-radius",
+      "opacity"
+    ],
+    "order/order": [
+      "declarations",
+      {
+        "type": "at-rule",
+        "name": "media"
+      },
+      {
+        "type": "rule",
+        "selector": "^&::(before|after)"
+      },
+      {
+        "type": "rule",
+        "selector": "^&:\\w"
+      },
+      {
+        "type": "rule",
+        "selector": "^&_"
+      },
+      {
+        "type": "rule",
+        "selector": "^."
+      }
+    ]
+  }
+}
