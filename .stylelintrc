@@ -17,6 +17,8 @@
       "height",
       "margin",
       "padding",
+      "border",
+      "border-radius",
       "font",
       "font-family",
       "font-style",
@@ -25,8 +27,6 @@
       "text-align",
       "color",
       "background-color",
-      "border",
-      "border-radius",
       "opacity"
     ],
     "order/order": [
